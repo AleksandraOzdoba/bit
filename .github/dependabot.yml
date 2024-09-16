@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # For JavaScript/Node.js
+    directory: "/" # Location of your package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pip" # For Python
+    directory: "/" # Location of your requirements files
+    schedule:
+      interval: "daily"
